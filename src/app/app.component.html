@@ -1,6 +1,18 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<header>
   <h1>
     Welcome to {{ title }}!
   </h1>
+</header>
 
+<body>
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8">
+      <router-outlet></router-outlet>
+  </div>
+  <div class="col-xs-2"></div>
+</body>
+
+<footer>
+  <div>© 2019 Copyright: <a href="https://github.com/imad-berkati/matches-game"> imad-berkati </a>
+  </div>
+</footer>

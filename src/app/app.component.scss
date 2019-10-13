@@ -1,0 +1,23 @@
+@import "../sass/vars";
+
+header {
+    font-family: $font-family;
+    font-weight: bolder;
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+    text-align:center;
+}
+
+body {
+    height: 85vh;
+}
+
+footer {
+    font-family: $font-family;
+    font-weight: bolder;
+    background-color: #000;
+    color: #fff;
+    height: 5vh;
+    text-align:center;
+}
