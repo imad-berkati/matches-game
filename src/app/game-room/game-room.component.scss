@@ -1,0 +1,41 @@
+.container {
+
+    .title {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .matches-count {
+        font-weight: bolder;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+
+    .matches {
+        text-align: center;
+
+        img {
+            height: 6vh;
+        }
+    }
+
+    .buttons {
+        margin-top: 15px;
+        text-align: center;
+
+        .buttons-group {
+            display: inline-block;
+
+            .btn-submit {
+                cursor: pointer;
+                padding: 0.5vw 1vw;
+                border-radius: 20px;
+                border: solid 1px rgba(0, 0, 0, 0);
+                font-weight: 600;
+                background-color: #2EB5E0;
+                color: #fff;
+                margin: 5px 5px;
+            }
+        }
+    }  
+}

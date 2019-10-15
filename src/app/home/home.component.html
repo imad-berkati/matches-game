@@ -1,3 +1,15 @@
-<p class="col-xs-12">
-  home works!
-</p>
+<div class="container col-xs-12">
+  <div class="row">
+    <h3 class="player-name col-xs-12">Player name</h3>
+  </div>
+  <div class="row">
+    <div class="col-xs-3"></div>
+    <input class="col-xs-6" id="name" type="text" placeholder="Ex: Imad" [(ngModel)]="playerName">
+    <div class="col-xs-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4"></div>
+    <button class="btn-submit col-xs-4" (click)="submit()"> Submit</button>
+    <div class="col-xs-4"></div>
+  </div>
+</div>
