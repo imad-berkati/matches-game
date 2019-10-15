@@ -49,7 +49,9 @@ export class GameRoomComponent implements OnInit {
     // Random boolean, probabilities (50% true, 50 false)
     this.isRobotStartAsFirst = Math.random() < 0.5;
     if (this.isRobotStartAsFirst) {
-      this.goRobot(this.numberOfMatches);
+      setTimeout(() => {
+        this.goRobot(this.numberOfMatches);
+      }, 50);
     }
   }
 
