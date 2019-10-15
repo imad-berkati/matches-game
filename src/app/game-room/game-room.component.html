@@ -1,0 +1,18 @@
+<div class="container col-xs-12">
+  <div class="row">
+    <h3 class="title col-xs-12">{{playerName}} Vs Robot</h3>
+  </div>
+  <div class="row">
+    <p class="matches-count">number of matches : {{numberOfMatches}} </p>
+  </div>
+  <div class="row matches">
+    <img src="/src/app/ressources/img/match.gif" *ngFor="let number of matchesIndexArray;" />
+  </div>
+  <div class="row buttons">
+    <div class="buttons-group">
+      <button class="btn-submit" (click)="burnMatches(1)">Take 1</button>
+      <button class="btn-submit" (click)="burnMatches(2)">Take 2</button>
+      <button class="btn-submit" (click)="burnMatches(3)">Take 3</button>
+    </div>
+  </div>
+</div>
