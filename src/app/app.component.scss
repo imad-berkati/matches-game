@@ -1,26 +1,26 @@
 @import "../sass/vars";
 
 header {
-    font-family: $font-family;
-    font-weight: bolder;
-    background-color: #000;
-    color: #fff;
-    height: 10vh;
-    text-align:center;
-    font-size: 3vw;
+  font-family: $font-family;
+  font-weight: bolder;
+  background-color: #000;
+  color: #fff;
+  height: 10vh;
+  text-align: center;
+  font-size: 3vw;
 }
 
 body {
-    font-family: $font-family;
-    height: 85vh;
-    background-color: #f5f5f5;
+  font-family: $font-family;
+  height: 85vh;
+  background-color: #f5f5f5;
 }
 
 footer {
-    font-family: $font-family;
-    font-weight: bolder;
-    background-color: #000;
-    color: #fff;
-    height: 5vh;
-    text-align:center;
+  font-family: $font-family;
+  font-weight: bolder;
+  background-color: #000;
+  color: #fff;
+  height: 5vh;
+  text-align: center;
 }
